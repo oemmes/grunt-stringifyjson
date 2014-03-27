@@ -1,0 +1,40 @@
+{
+  "name": "grunt-stringifyjson",
+  "description": "Uses JSON.stringify to minify JSON files (i.e. removing whitespace)",
+  "version": "0.1.0",
+  "author": {
+    "name": "Nils Heuermann",
+    "email": "nils@world-of-scripts.de",
+    "url": "http://www.world-of-scripts.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oemmes/grunt-stringifyjson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oemmes/grunt-stringifyjson/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/oemmes/grunt-stringifyjson/blob/master/LICENSE-MIT"
+    }
+  ],
+  "//main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.7"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "json",
+    "minify",
+    "stringify"
+  ]
+}
